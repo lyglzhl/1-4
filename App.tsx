@@ -148,12 +148,21 @@ const App: React.FC = () => {
               <h3 className="text-[15px] font-bold text-slate-900 mb-0 group-hover:text-[#ee9124] transition-colors">{step.title}</h3>
               <p className="text-slate-500 text-[12px] leading-snug">{step.description}</p>
               {step.number === "01" && (
-                <div className="mt-3 rounded-xl overflow-hidden border border-orange-100 bg-white/70 shadow-sm">
-                  <img
-                    src="/images/3.png"
-                    alt="Reverse major selection"
-                    className="w-full h-auto object-cover"
-                  />
+                <div className="mt-3 grid grid-cols-2 gap-2">
+                  <div className="rounded-xl overflow-hidden border border-orange-100 bg-white/70 shadow-sm">
+                    <img
+                      src="/images/3.png"
+                      alt="Path planning visual 1"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
+                  <div className="rounded-xl overflow-hidden border border-orange-100 bg-white/70 shadow-sm">
+                    <img
+                      src="/images/4.jpg"
+                      alt="Path planning visual 2"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
                 </div>
               )}
             </div>
