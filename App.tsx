@@ -97,7 +97,7 @@ const App: React.FC = () => {
           <div className="grid grid-cols-2 gap-2 mt-4">
             <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
               <img 
-                src="https://api.aistudio.google.com/container/api/v1/files/f:e4113115-46f3-4d2c-81be-8e6584c6c968" 
+                src="/images/2.PNG" 
                 alt="学生毕业剪影" 
                 className="w-full h-full object-cover"
               />
@@ -107,7 +107,7 @@ const App: React.FC = () => {
             </div>
             <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
               <img 
-                src="https://api.aistudio.google.com/container/api/v1/files/f:812f8e13-c9e9-4672-911e-b81b85f36e61" 
+                src="/images/1.jpg" 
                 alt="YUSHI 活动现场" 
                 className="w-full h-full object-cover"
               />
@@ -147,6 +147,15 @@ const App: React.FC = () => {
               </div>
               <h3 className="text-[15px] font-bold text-slate-900 mb-0 group-hover:text-[#ee9124] transition-colors">{step.title}</h3>
               <p className="text-slate-500 text-[12px] leading-snug">{step.description}</p>
+              {step.number === "01" && (
+                <div className="mt-3 rounded-xl overflow-hidden border border-orange-100 bg-white/70 shadow-sm">
+                  <img
+                    src="/images/3.png"
+                    alt="Reverse major selection"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
