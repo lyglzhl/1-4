@@ -96,22 +96,22 @@ const App: React.FC = () => {
 
           <div className="grid grid-cols-2 gap-2 mt-4">
             <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
-              <img 
+              <a href="/images/2.PNG" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
                 src="/images/2.PNG" 
                 alt="学生毕业剪影" 
                 className="w-full h-full object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 px-2 text-center border-t border-orange-100">
+              /></a>
+              <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 px-2 text-center border-t border-orange-100 pointer-events-none">
                 <span className="text-[9px] font-bold text-[#ee9124]">学生毕业剪影</span>
               </div>
             </div>
             <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
-              <img 
+              <a href="/images/1.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
                 src="/images/1.jpg" 
                 alt="YUSHI 活动现场" 
                 className="w-full h-full object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 px-2 text-center border-t border-orange-100">
+              /></a>
+              <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 px-2 text-center border-t border-orange-100 pointer-events-none">
                 <span className="text-[9px] font-bold text-[#ee9124]">YUSHI 活动现场</span>
               </div>
             </div>
@@ -148,20 +148,20 @@ const App: React.FC = () => {
               <h3 className="text-[15px] font-bold text-slate-900 mb-0 group-hover:text-[#ee9124] transition-colors">{step.title}</h3>
               <p className="text-slate-500 text-[12px] leading-snug">{step.description}</p>
               {step.number === "01" && (
-                <div className="mt-3 grid grid-cols-2 gap-2">
-                  <div className="rounded-xl overflow-hidden border border-orange-100 bg-white/70 shadow-sm">
-                    <img
+                <div className="mt-3 flex flex-col gap-2">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
+                    <a href="/images/3.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                       src="/images/3.png"
                       alt="Path planning visual 1"
-                      className="w-full h-auto object-cover"
-                    />
+                      className="w-full h-full object-cover"
+                    /></a>
                   </div>
-                  <div className="rounded-xl overflow-hidden border border-orange-100 bg-white/70 shadow-sm">
-                    <img
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
+                    <a href="/images/4.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                       src="/images/4.jpg"
                       alt="Path planning visual 2"
-                      className="w-full h-auto object-cover"
-                    />
+                      className="w-full h-full object-cover"
+                    /></a>
                   </div>
                 </div>
               )}
@@ -332,11 +332,11 @@ const App: React.FC = () => {
           <div className="flex-none text-center">
             <h4 className="text-[#ee9124] font-bold text-[15px] mb-2">官方微信</h4>
             <div className="w-16 h-16 bg-white p-1 rounded-lg shadow-sm border border-orange-100 overflow-hidden flex items-center justify-center mx-auto">
-               <img 
+               <a href="https://api.aistudio.google.com/container/api/v1/files/f:3d865c1f-498c-4444-934c-687f87a80b08" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
                  src="https://api.aistudio.google.com/container/api/v1/files/f:3d865c1f-498c-4444-934c-687f87a80b08" 
                  alt="QR Code" 
                  className="w-full h-full object-cover rounded-[4px]"
-               />
+               /></a>
             </div>
           </div>
         </div>
