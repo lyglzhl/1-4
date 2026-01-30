@@ -98,21 +98,21 @@ const App: React.FC = () => {
             <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
               <a href="/images/2.PNG" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
                 src="/images/2.PNG" 
-                alt="学生毕业剪影" 
+                alt="央视行业代表签约" 
                 className="w-full h-full object-cover"
               /></a>
               <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 px-2 text-center border-t border-orange-100 pointer-events-none">
-                <span className="text-[9px] font-bold text-[#ee9124]">学生毕业剪影</span>
+                <span className="text-[9px] font-bold text-[#ee9124]">央视行业代表签约</span>
               </div>
             </div>
             <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
               <a href="/images/1.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
                 src="/images/1.jpg" 
-                alt="YUSHI 活动现场" 
+                alt="创始人“广东医科大学”及“今日头条”采访" 
                 className="w-full h-full object-cover"
               /></a>
               <div className="absolute bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm py-1 px-2 text-center border-t border-orange-100 pointer-events-none">
-                <span className="text-[9px] font-bold text-[#ee9124]">YUSHI 活动现场</span>
+                <span className="text-[9px] font-bold text-[#ee9124]">“广东医科大学”及“今日头条”采访</span>
               </div>
             </div>
           </div>
@@ -185,11 +185,11 @@ const App: React.FC = () => {
                       className="w-full h-full object-cover"
                     /></a>
                   </div>
-                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10 bg-white">
                     <a href="/images/9.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                       src="/images/9.png"
                       alt="Controlled rhythm visual 2"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     /></a>
                   </div>
                 </div>
@@ -203,11 +203,11 @@ const App: React.FC = () => {
                       className="w-full h-full object-cover"
                     /></a>
                   </div>
-                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                  <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10 bg-white">
                     <a href="/images/11.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                       src="/images/11.png"
                       alt="Visa and pre-departure visual 2"
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                     /></a>
                   </div>
                 </div>
@@ -296,11 +296,11 @@ const App: React.FC = () => {
                           className="w-full h-full object-cover"
                         /></a>
                       </div>
-                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                      <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10 bg-white">
                         <a href="/images/13.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                           src="/images/13.jpg"
                           alt="Interview strategy visual 2"
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         /></a>
                       </div>
                     </div>
@@ -343,11 +343,11 @@ const App: React.FC = () => {
                   )}
                   {item.id === "(4)" && (
                     <div className="mt-3 flex flex-col gap-0">
-                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                      <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center bg-white">
                         <a href="/images/18.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                           src="/images/18.jpg"
                           alt="Research planning visual 1"
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         /></a>
                       </div>
                       <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
