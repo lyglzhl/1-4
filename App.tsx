@@ -147,16 +147,81 @@ const App: React.FC = () => {
               </div>
               <h3 className="text-[15px] font-bold text-slate-900 mb-0 group-hover:text-[#ee9124] transition-colors">{step.title}</h3>
               <p className="text-slate-500 text-[12px] leading-snug">{step.description}</p>
+              {step.number === "02" && (
+                <div className="mt-3">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                    <a href="/images/5.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/5.jpg"
+                      alt="Core path visual"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                </div>
+              )}
+              {step.number === "03" && (
+                <div className="mt-3 flex flex-col gap-0">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                    <a href="/images/6.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/6.jpg"
+                      alt="Submission effectiveness visual 1"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                    <a href="/images/7.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/7.png"
+                      alt="Submission effectiveness visual 2"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                </div>
+              )}
+              {step.number === "04" && (
+                <div className="mt-3 flex flex-col gap-0">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                    <a href="/images/8.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/8.jpg"
+                      alt="Controlled rhythm visual 1"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                    <a href="/images/9.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/9.png"
+                      alt="Controlled rhythm visual 2"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                </div>
+              )}
+              {step.number === "05" && (
+                <div className="mt-3 flex flex-col gap-0">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                    <a href="/images/10.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/10.jpg"
+                      alt="Visa and pre-departure visual 1"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                    <a href="/images/11.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                      src="/images/11.png"
+                      alt="Visa and pre-departure visual 2"
+                      className="w-full h-full object-cover"
+                    /></a>
+                  </div>
+                </div>
+              )}
               {step.number === "01" && (
-                <div className="mt-3 flex flex-col gap-2">
-                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
+                <div className="mt-3 flex flex-col gap-0">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
                     <a href="/images/3.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                       src="/images/3.png"
                       alt="Path planning visual 1"
                       className="w-full h-full object-cover"
                     /></a>
                   </div>
-                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm">
+                  <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
                     <a href="/images/4.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
                       src="/images/4.jpg"
                       alt="Path planning visual 2"
@@ -222,6 +287,78 @@ const App: React.FC = () => {
                   <p className="text-[11px] text-orange-50/90 leading-snug text-justify">
                     {item.desc}
                   </p>
+                  {item.id === "(1)" && (
+                    <div className="mt-3 flex flex-col gap-0">
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                        <a href="/images/12.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/12.png"
+                          alt="Interview strategy visual 1"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                        <a href="/images/13.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/13.jpg"
+                          alt="Interview strategy visual 2"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                    </div>
+                  )}
+                  {item.id === "(2)" && (
+                    <div className="mt-3 flex flex-col gap-0">
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                        <a href="/images/14.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/14.jpg"
+                          alt="Employment competitiveness visual 1"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                        <a href="/images/15.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/15.jpg"
+                          alt="Employment competitiveness visual 2"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                    </div>
+                  )}
+                  {item.id === "(3)" && (
+                    <div className="mt-3 flex flex-col gap-0">
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                        <a href="/images/16.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/16.png"
+                          alt="Industry sharing visual 1"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                        <a href="/images/17.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/17.png"
+                          alt="Industry sharing visual 2"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                    </div>
+                  )}
+                  {item.id === "(4)" && (
+                    <div className="mt-3 flex flex-col gap-0">
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center">
+                        <a href="/images/18.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/18.jpg"
+                          alt="Research planning visual 1"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                      <div className="relative aspect-[4/3] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm scale-[0.8] origin-center -mt-10">
+                        <a href="/images/19.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+                          src="/images/19.png"
+                          alt="Research planning visual 2"
+                          className="w-full h-full object-cover"
+                        /></a>
+                      </div>
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
