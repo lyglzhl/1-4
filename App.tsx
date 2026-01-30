@@ -37,8 +37,8 @@ const App: React.FC = () => {
 
         <div className="relative z-10 mt-20">
           <div className="flex flex-col gap-4">
-            <div className="w-24 h-24 bg-white p-1.5 rounded-sm shadow-lg">
-               <div className="w-full h-full bg-slate-100 flex items-center justify-center border border-slate-200 overflow-hidden">
+            <div className="w-24 h-24 p-1.5 rounded-sm shadow-lg bg-[url('/images/wechat.jpg')] bg-cover bg-center">
+               <div className="hidden w-full h-full bg-slate-100 items-center justify-center border border-slate-200 overflow-hidden">
                   <div className="grid grid-cols-5 gap-1 p-1">
                     {[...Array(25)].map((_, i) => (
                       <div key={i} className={`w-1.5 h-1.5 ${Math.random() > 0.4 ? 'bg-slate-800' : 'bg-transparent'}`}></div>
