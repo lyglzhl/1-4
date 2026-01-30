@@ -469,8 +469,8 @@ const App: React.FC = () => {
           <div className="flex-none text-center">
             <h4 className="text-[#ee9124] font-bold text-[15px] mb-2">官方微信</h4>
             <div className="w-16 h-16 bg-white p-1 rounded-lg shadow-sm border border-orange-100 overflow-hidden flex items-center justify-center mx-auto">
-               <a href="https://api.aistudio.google.com/container/api/v1/files/f:3d865c1f-498c-4444-934c-687f87a80b08" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
-                 src="https://api.aistudio.google.com/container/api/v1/files/f:3d865c1f-498c-4444-934c-687f87a80b08" 
+               <a href="/images/wechat.jpg" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img 
+                 src="/images/wechat.jpg" 
                  alt="QR Code" 
                  className="w-full h-full object-cover rounded-[4px]"
                /></a>
