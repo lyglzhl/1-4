@@ -441,6 +441,58 @@ const App: React.FC = () => {
         </div>
       </section>
 
+      {/* 05. Offer Showcase */}
+      <section id="offers" className="relative pb-10">
+        <div className="px-8 mb-6 flex items-center gap-3">
+          <div className="w-1.5 h-8 orange-gradient rounded-full"></div>
+          <h2 className="text-2xl font-bold text-slate-900 serif">部分Ofer榜单展示</h2>
+        </div>
+        <div className="px-8 grid grid-cols-2 gap-3">
+          <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm bg-white">
+            <a href="/images/off1.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+              src="/images/off1.png"
+              alt="Offer showcase 1"
+              className="w-full h-full object-contain"
+            /></a>
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm bg-white">
+            <a href="/images/off2.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+              src="/images/off2.png"
+              alt="Offer showcase 2"
+              className="w-full h-full object-contain"
+            /></a>
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm bg-white">
+            <a href="/images/off3.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+              src="/images/off3.png"
+              alt="Offer showcase 3"
+              className="w-full h-full object-contain"
+            /></a>
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm bg-white">
+            <a href="/images/off4.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+              src="/images/off4.png"
+              alt="Offer showcase 4"
+              className="w-full h-full object-contain"
+            /></a>
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm bg-white">
+            <a href="/images/off5.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+              src="/images/off5.png"
+              alt="Offer showcase 5"
+              className="w-full h-full object-contain"
+            /></a>
+          </div>
+          <div className="relative aspect-[3/4] rounded-xl border-2 border-orange-200 overflow-hidden shadow-sm bg-white">
+            <a href="/images/off6.png" target="_blank" rel="noopener noreferrer" className="block w-full h-full"><img
+              src="/images/off6.png"
+              alt="Offer showcase 6"
+              className="w-full h-full object-contain"
+            /></a>
+          </div>
+        </div>
+      </section>
+
       {/* 06. Footer */}
       <footer className="bg-[#fff3e6] px-8 pt-10 pb-12 flex flex-col items-center min-h-[20vh] relative border-t border-orange-100/50">
         <div className="text-center mb-6">
